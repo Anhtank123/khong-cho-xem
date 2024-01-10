@@ -1,10 +1,10 @@
 
 wait(1)
 
-if game.PlaceId == 2753915549 or game.PlaceId == 4442272183 or game.PlaceId == 7449423635 then
+if game.PlaceId == 2753915549 or game.PlaceId == 4442272183 or game.PlaceId == 7449423635 or gmae.PlaceId == 6252985844 then
 	local create = loadstring(game:HttpGet("https://raw.githubusercontent.com/Anhtank123/deo-cho-xem/main/ui%20theme"))()
 	
-	local Window = create:Win("Khanh HUB")
+	local Window = create:Win("Khanh Hub")
 	local Tap1 = Window:Taps("General")
     local Tap4 = Window:Taps("Combat")
 	local Tap2 = Window:Taps("Stats")
